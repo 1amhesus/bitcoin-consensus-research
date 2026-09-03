@@ -4,7 +4,7 @@
 > From the definition of a block chain and `OP_RETURN` to arbitrary-data input analysis and the BIP-110 code review
 
 **Independent Bitcoin Research Note** · [@1amhesus](https://github.com/1amhesus)  
-Structured English edition of the 8th Bitcoin Research Team @ Oracle final presentation
+Structured English edition of the 8th Bitcoin Research Team @ Orakle final presentation
 
 > **Research status:** This note distinguishes observations supported by code review from hypotheses that still require controlled regtest validation.
 
