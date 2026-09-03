@@ -1,24 +1,34 @@
-# RDTS (BIP-110)
+# Bitcoin Consensus Research
 
-## What Is the Essence of the Bitcoin Community Governance Debate?
+Independent research on how Bitcoin consensus rules are chosen, implemented,
+and propagated—from BIP-110 code review and Poison Block hypotheses to
+infrastructure risk.
 
-> From the definition of the block chain and `OP_RETURN` to arbitrary-data
-> input analysis and a critical review of the BIP-110 implementation.
+## BIP-110 / RDTS Research
 
-**Author:** [@1amhesus](https://github.com/1amhesus)  
-**Status:** Work in progress  
-**Original presentation:** [Korean PDF](presentation/bip110-presentation-ko.pdf)
+### English
 
-This repository contains the structured English edition of my Korean
-presentation on BIP-110. It distinguishes observations confirmed through
-code review from the Poison Block hypotheses that still require controlled
-regtest experiments.
+- [Structured research note](analysis_of_rdts_slides_structured_en.md)
+- [HTML edition](analysis_of_rdts_slides_structured_en.html)
 
-## Research Question
+### Korean
 
-How are Bitcoin consensus rules chosen and propagated across the ecosystem?
+- [Original presentation (PDF)](presentation/analysis_of_RDTS-presentation_ko.pdf)
 
-This research approaches that question through the RDTS/BIP-110
-implementation, its UTXO-grandfathering mechanism, per-input verification
-flags, script-cache behavior, and the resulting hypothesis of
-validation-cost amplification.
+## Research Status
+
+This is an ongoing independent research project.
+
+The current note distinguishes:
+
+- observations supported by BIP-110 code review;
+- the relationship between UTXO grandfathering, per-input verification
+  flags, and script-cache behavior;
+- hypotheses concerning repeated script execution and validation-cost
+  amplification; and
+- questions that still require controlled regtest experiments.
+
+## License
+
+This repository is licensed under the
+[GNU General Public License v3.0](LICENSE).
